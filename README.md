@@ -37,7 +37,9 @@ Two VirtualBox VMs live on an **Internal Network** (no internet). Windows 10 pla
 ## Part 1 — Provisioning & Base Network
 
 We provisioned **two VMs** — Windows 10 (target) and Kali Linux (attacker).  
-![Two VMs installed in VirtualBox](./images/part1/2_vm_installed.png)
+![Two VMs installed in VirtualBox]
+<img width="1919" height="1079" alt="2 vm installed " src="https://github.com/user-attachments/assets/6c88f30f-c61e-4199-9c02-0ed19330dc9a" />
+
 
 We configured **Windows 10** to use **Internal Network**, ensuring it only talks to other lab VMs (not the internet or host LAN).  
 ![Windows VM set to Internal Network](./images/part1/2_assigning_internal_network_win10.png)
